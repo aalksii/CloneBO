@@ -19,6 +19,7 @@ We include code to use CloneBO with the fitness oracle in Fig. 3a and the CoV or
 Install dependencies by running ```pip install .``` with Python version ```3.12.0```.
 Please also install [AbNumber](https://github.com/prihoda/AbNumber).
 Finally create temporary and logging directories ```mkdir temp data```.
+Install clustalo: ```install bioconda::clustalo```.
 
 To use the fitness oracle, you need permission to use Llama 2 which can be obtained [here](https://huggingface.co/meta-llama/Llama-2-7b-hf).
 After obtaining permission you must log into huggingface using ```huggingface-cli login```.
