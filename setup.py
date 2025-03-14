@@ -9,7 +9,7 @@ setup(
         "numpy==1.26.1",
         "torch",
         "tqdm",
-        "transformers",
+        "transformers==4.44.0",
         "huggingface_hub",
         "hydra-core",
         "omegaconf",
